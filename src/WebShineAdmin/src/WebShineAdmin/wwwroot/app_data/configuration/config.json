@@ -1,0 +1,10 @@
+﻿{
+	"WebShine": {
+		"Template": {
+			"CollectionService": {
+				"Type": "WebShine.Admin.Web.LocalFileSystemTemplateCollection, WebShine.Admin.Web",
+				"Extension": "json"
+			}
+		}
+	}
+}
