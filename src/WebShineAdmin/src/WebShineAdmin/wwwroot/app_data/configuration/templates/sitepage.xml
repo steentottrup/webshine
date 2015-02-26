@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<template name="sitepage" inherit="node">
+	<tabs>
+		<tab name="Settings" sortOrder="2">
+			<fields>
+				<!--<field name="test" sortOrder="2" type="elementselector" dataType="id[]">
+					<customProperties>
+						<add name="treetype"><![CDATA[content]]></add>
+					</customProperties>
+				</field>-->
+				<!--<field name="culture" sortOrder="3" type="dropdown" dataType="string">
+					<customProperties>
+						<add name="datasource"><![CDATA[cultureinfo]]></add>
+					</customProperties>
+				</field>
+				<field name="timezone" sortOrder="4" type="dropdown" dataType="string">
+					<customProperties>
+						<add name="datasource"><![CDATA[timezone]]></add>
+					</customProperties>
+				</field>-->
+				<field name="Url" sortOrder="1" type="textinput" dataType="string" required="true">
+					<labels>
+						<label><![CDATA[Hulu]]></label>
+						<label language="da-DK"><![CDATA[bulu]]></label>
+					</labels>
+					<requirements>
+						<requirement type="regex">
+							<texts>
+								<text><![CDATA[A valid Url contains only english letters, numbers or the characters: '+', '-' or '_']]></text>
+								<text language="da-DK"><![CDATA[bla bla]]></text>
+							</texts>
+							<parameter><![CDATA[^[a-zA-Z0-9+-_]+$]]></parameter>
+						</requirement>
+					</requirements>
+				</field>
+				<field name="ShortUrls" sortOrder="2" type="valuelist" dataType="string[]">
+					<customProperties>
+						<add name="unique"><![CDATA[true]]></add>
+					</customProperties>
+				</field>
+			</fields>
+		</tab>
+		<tab name="Content" sortOrder="1">
+			<fields>
+				<field name="Heading" sortOrder="1" type="textinput" dataType="string" />
+				<field name="SubHeading" sortOrder="1" type="textarea" dataType="string" />
+				<field name="Content" sortOrder="1" type="textarea" dataType="string" />
+			</fields>
+		</tab>
+		<!--<tab name="standard" sortOrder="99">
+			<label><![CDATA[overwritten]]></label>
+			<fields>
+				-->
+		<!--<field name="url" sortOrder="1" type="textinput" dataType="string">
+					<label><![CDATA[URL]]></label>
+				</field>-->
+		<!--
+			</fields>
+		</tab>-->
+	</tabs>
+</template>

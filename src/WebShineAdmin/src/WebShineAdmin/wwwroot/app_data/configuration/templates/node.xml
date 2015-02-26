@@ -1,4 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<template name="node" inherit="">
-  
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<template name="node">
+	<tabs>
+		<tab name="Settings" sortOrder="99">
+			<fields>
+				<field name="WSName" sortOrder="1" type="textinput" dataType="string" required="true">
+					<requirements>
+						<requirement type="required" />
+					</requirements>
+				</field>
+			</fields>
+		</tab>
+		<tab name="Properties" sortOrder="99">
+			<fields>
+				<field name="WSCreated" sortOrder="10" type="datetime" dataType="datetime" editable="false" required="true" />
+				<field name="WSAuthor" sortOrder="11" type="user" dataType="id" editable="false" required="true" />
+				<field name="WSChanged" sortOrder="12" type="datetime" dataType="datetime" editable="false" required="true" />
+				<field name="WSEditor" sortOrder="13" type="user" dataType="id" editable="false" required="true" />
+				<field name="WSSortOrder" sortOrder="99" type="textinput" dataType="int" editable="false" required="true" hidden="true" />
+			</fields>
+		</tab>
+	</tabs>
 </template>

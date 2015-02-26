@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree name="file">
+	<templates>
+		<template name="file">
+		</template>
+		<template name="folder">
+			<allowedChildren>
+				<template name="file"/>
+				<template name="folder"/>
+			</allowedChildren>
+		</template>
+	</templates>
+	<root>
+		<template name="folder" />
+	</root>
+</tree>
