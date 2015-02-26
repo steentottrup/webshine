@@ -1,6 +1,6 @@
-﻿using MongoDB.Bson;
+﻿using System;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using System;
 
 namespace WebShine.Core.Data {
 
@@ -20,7 +20,7 @@ namespace WebShine.Core.Data {
 			public const String ParentId = "pid";
 			public const String Name = "name";
 			public const String Template = "template";
-			public const String Properties= "props";
+			public const String Properties = "props";
 		}
 	}
 }

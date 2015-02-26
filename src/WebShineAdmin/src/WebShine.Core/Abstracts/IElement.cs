@@ -1,8 +1,8 @@
-﻿using MongoDB.Bson;
-using System;
+﻿using System;
+using MongoDB.Bson;
 
 namespace WebShine.Core.Abstracts {
-
+	
 	public interface IElement {
 		ObjectId Id { get; set; }
 		ObjectId ParentId { get; set; }
