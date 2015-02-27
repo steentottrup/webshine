@@ -1,10 +1,16 @@
 ﻿{
-	"WebShine": {
-		"Template": {
-			"CollectionService": {
-				"Type": "WebShine.Admin.Web.LocalFileSystemTemplateCollection, WebShine.Admin.Web",
-				"Extension": "json"
-			}
-		}
-	}
+    "WebShine": {
+        "ContentManager": {
+            "Template": {
+                "CollectionService": {
+                    "Type": "WebShine.Admin.Web.LocalFileSystemTemplateCollection, WebShine.Admin.Web",
+                    "Extension": "json"
+                }
+            },
+            "Publishers": [ "http://localhost:12345" ]
+        },
+        "Publisher": {
+
+        }
+    }
 }

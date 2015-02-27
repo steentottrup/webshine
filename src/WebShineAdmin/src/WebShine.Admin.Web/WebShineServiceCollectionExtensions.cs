@@ -14,7 +14,7 @@ namespace WebShine.Admin.DependencyInjection {
 
 			if (configuration != null) {
 				services.AddInstance<IConfiguration>(configuration);
-				String templateCollection = configuration.Get("WebShine:Template:CollectionService:Type");
+				String templateCollection = configuration.Get("WebShine:ContentManager:Template:CollectionService:Type");
 				if (!String.IsNullOrWhiteSpace(templateCollection)) {
 					// TODO:
 				}
