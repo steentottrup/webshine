@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree name="site">
+	<templates>
+		<template name="sitepage">
+			<allowedChildren>
+				<template name="sitepage"/>
+			</allowedChildren>
+		</template>
+	</templates>
+	<root>
+		<template name="sitepage" />
+	</root>
+</tree>

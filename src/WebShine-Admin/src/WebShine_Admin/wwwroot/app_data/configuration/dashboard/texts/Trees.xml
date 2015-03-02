@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localizations>
+	<Namespace Name="Tree.site.Action">
+		<Text Key="std_edit">
+			<Translation Language="en-GB"><![CDATA[Edit]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Redigér]]></Translation>
+		</Text>
+		<Text Key="std_new">
+			<Translation Language="en-GB"><![CDATA[Create...]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Opret...]]></Translation>
+		</Text>
+		<Text Key="std_select">
+			<Translation Language="en-GB"><![CDATA[Select]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Vælg]]></Translation>
+		</Text>
+		<Text Key="std_delete">
+			<Translation Language="en-GB"><![CDATA[Delete]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Slet]]></Translation>
+		</Text>
+		<Text Key="DeleteConfirmTitle">
+			<Translation Language="en-GB"><![CDATA[Delete node?]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Slet node?]]></Translation>
+		</Text>
+		<Text Key="DeleteConfirmText">
+			<Translation Language="en-GB"><![CDATA[Are you sure you want to delete the node?]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Er du sikker?]]></Translation>
+		</Text>
+	</Namespace>
+</Localizations>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localizations>
+	<Namespace Name="WebShine.Web.UI.Dashboard.NewModal">
+		<Text Key="OkButtonText">
+			<Translation Language="en-GB"><![CDATA[Ok]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Ok]]></Translation>
+		</Text>
+		<Text Key="CancelButtonText">
+			<Translation Language="en-GB"><![CDATA[Cancel]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Fortryd]]></Translation>
+		</Text>
+		<Text Key="NameLabel">
+			<Translation Language="en-GB"><![CDATA[Name]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Navn]]></Translation>
+		</Text>
+		<Text Key="TemplateNameLabel">
+			<Translation Language="en-GB"><![CDATA[Template]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Skabelon]]></Translation>
+		</Text>
+		<Text Key="NamePlaceholder">
+			<Translation Language="en-GB"><![CDATA[Element name]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Element navn]]></Translation>
+		</Text>
+	</Namespace>
+	<Namespace Name="WebShine.Web.UI.Dashboard.ConfirmModal">
+		<Text Key="OkButtonText">
+			<Translation Language="en-GB"><![CDATA[Ok]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Ok]]></Translation>
+		</Text>
+		<Text Key="CancelButtonText">
+			<Translation Language="en-GB"><![CDATA[Cancel]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Fortryd]]></Translation>
+		</Text>
+	</Namespace>
+	<Namespace Name="WebShine.Web.UI.Dashboard.LogOnModal">
+		<Text Key="Title">
+			<Translation Language="en-GB"><![CDATA[Log On]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Log på]]></Translation>
+		</Text>
+		<Text Key="UsernameLabel">
+			<Translation Language="en-GB"><![CDATA[Username]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Brugernavn]]></Translation>
+		</Text>
+		<Text Key="PasswordLabel">
+			<Translation Language="en-GB"><![CDATA[Password]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Kodeord]]></Translation>
+		</Text>
+		<Text Key="UsernamePlaceholder">
+			<Translation Language="en-GB"><![CDATA[Your username]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Dit brugernavn]]></Translation>
+		</Text>
+		<Text Key="PasswordPlaceholder">
+			<Translation Language="en-GB"><![CDATA[Your password]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Dit kodeord]]></Translation>
+		</Text>
+		<Text Key="PasswordRequired">
+			<Translation Language="en-GB"><![CDATA[Your password is required]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Dit kodeord er påkrævet]]></Translation>
+		</Text>
+		<Text Key="UsernameRequired">
+			<Translation Language="en-GB"><![CDATA[Your username is required]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Dit brugernavn er påkrævet]]></Translation>
+		</Text>
+		<Text Key="RememberMeText">
+			<Translation Language="en-GB"><![CDATA[Remember me]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Husk mig]]></Translation>
+		</Text>
+		<Text Key="LogOnButton">
+			<Translation Language="en-GB"><![CDATA[Log On]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Log på]]></Translation>
+		</Text>
+		<Text Key="WrongUsernamePassword">
+			<Translation Language="en-GB"><![CDATA[The given username and password is wrong]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Forkert brugernavn/kodeord]]></Translation>
+		</Text>
+	</Namespace>
+
+	<Namespace Name="WebShine.Web.UI.Dashboard">
+		<Text Key="Development">
+			<Translation Language="en-GB"><![CDATA[Development]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Udvikling]]></Translation>
+		</Text>
+		<Text Key="Production">
+			<Translation Language="en-GB"><![CDATA[Production]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Produktion]]></Translation>
+		</Text>
+		<Text Key="Staging">
+			<Translation Language="en-GB"><![CDATA[Staging]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Staging]]></Translation>
+		</Text>
+		<Text Key="LogOnButton">
+			<Translation Language="en-GB"><![CDATA[Log On]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Log på]]></Translation>
+		</Text>
+		<Text Key="LogOffButton">
+			<Translation Language="en-GB"><![CDATA[Log Off]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Log af]]></Translation>
+		</Text>
+		<Text Key="en-GB">
+			<Translation Language="en-GB"><![CDATA[English (UK)]]></Translation>
+			<Translation Language="da-DK"><![CDATA[English (UK)]]></Translation>
+		</Text>
+		<Text Key="da-DK">
+			<Translation Language="en-GB"><![CDATA[Danish]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Dansk]]></Translation>
+		</Text>
+		<Text Key="UpdateButton">
+			<Translation Language="en-GB"><![CDATA[Save]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Gem]]></Translation>
+		</Text>
+	</Namespace>
+
+	<Namespace Name="WebShine.Web.UI.Dashboard.LeftMenu">
+		<Text Key="Main">
+			<Translation Language="en-GB"><![CDATA[Main]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Top]]></Translation>
+		</Text>
+		<Text Key="Site">
+			<Translation Language="en-GB"><![CDATA[Site]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Site]]></Translation>
+		</Text>
+		<Text Key="Content">
+			<Translation Language="en-GB"><![CDATA[Content]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Indhold]]></Translation>
+		</Text>
+		<Text Key="Files">
+			<Translation Language="en-GB"><![CDATA[Files]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Filer]]></Translation>
+		</Text>
+		<Text Key="Users">
+			<Translation Language="en-GB"><![CDATA[Users]]></Translation>
+			<Translation Language="da-DK"><![CDATA[Brugere]]></Translation>
+		</Text>
+	</Namespace>
+</Localizations>

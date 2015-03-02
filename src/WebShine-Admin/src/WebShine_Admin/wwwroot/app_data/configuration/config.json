@@ -1,0 +1,23 @@
+﻿{
+	"WebShine": {
+		"ContentManager": {
+			"LocalFileSystemTemplateCollection": {
+				"Extension": "json",
+				"Root": "app_data/configuration/templates"
+			},
+			//"Publishers": [ "http://localhost:12345" ],
+			"Database": {
+				"Type": "MongoDB",
+				"ConnectString": ""
+			},
+			"Services": {
+				"TemplateCollection": "WebShine.Admin.Web.LocalFileSystemTemplateCollection, WebShine.Admin.Web",
+				"Cache": "WebShine.Admin.Web.LocalFileSystemTemplateCollection, WebShine.Admin.Web",
+				"TemplateParser": "WebShine.Admin.Web.LocalFileSystemTemplateCollection, WebShine.Admin.Web"
+			}
+		},
+		"Publisher": {
+
+		}
+	}
+}

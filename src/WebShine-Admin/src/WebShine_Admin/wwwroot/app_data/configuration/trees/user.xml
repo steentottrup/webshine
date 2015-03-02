@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree name="user">
+	<templates>
+		<template name="user">
+		</template>
+		<template name="folder">
+			<allowedChildren>
+				<template name="user" />
+				<template name="folder" />
+			</allowedChildren>
+		</template>
+	</templates>
+	<root>
+		<template name="folder" />
+	</root>
+</tree>
